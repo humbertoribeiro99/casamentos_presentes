@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-pink-50 text-gray-800 font-sans">
-  <div class="max-w-2xl mx-auto p-4">
+  <div class="max-w-xl mx-auto p-4">
     <header class="text-center my-6">
       <h1 class="text-3xl font-bold text-pink-600">💍 Lista de Presentes</h1>
       <p class="text-gray-600 mt-2">Ajude-nos a montar nosso novo lar com amor!</p>
@@ -17,24 +17,53 @@
     <section class="bg-white rounded-2xl shadow-md p-4 space-y-4">
       <h2 class="text-xl font-semibold text-pink-500">Sistema de Cotas</h2>
       <p class="text-sm text-gray-500">Você pode contribuir com uma ou mais cotas para qualquer item. Qualquer valor é uma grande ajuda!</p>
-      <table class="w-full text-sm mt-4">
-        <thead>
-          <tr class="bg-pink-100 text-pink-800">
-            <th class="p-2 text-left">Presente</th>
-            <th class="p-2 text-center">Total (R$)</th>
-            <th class="p-2 text-center">Cotas</th>
-            <th class="p-2 text-center">Por Cota</th>
-             <th class="p-2 text-center">Pix</th>
-          </tr>
-        </thead>
-        <tbody class="divide-y divide-pink-100">
-          <tr><td class="p-2">Sofá</td><td class="p-2 text-center">3.500,00</td><td class="p-2 text-center">20</td><td class="p-2 text-center">175,00</td><td class="p-2 text-center"><a href="https://nubank.com.br/cobrar/chgdf/685c1264-1686-4ab1-a5f2-36b41de3a305" class="text-pink-800">Transfira Aqui</a></td></tr>
-          <tr><td class="p-2">Geladeira Duplex</td><td class="p-2 text-center">3.500,00</td><td class="p-2 text-center">20</td><td class="p-2 text-center">175,00</td><td class="p-2 text-center"><a href="https://nubank.com.br/cobrar/chgdf/685c1264-1686-4ab1-a5f2-36b41de3a305" class="text-pink-800">Transfira Aqui</a></td></tr>
-          <tr><td class="p-2">Lavadora Lave e Seca</td><td class="p-2 text-center">3.500,00</td><td class="p-2 text-center">20</td><td class="p-2 text-center">175,00</td><td class="p-2 text-center"><a href="https://nubank.com.br/cobrar/chgdf/685c1264-1686-4ab1-a5f2-36b41de3a305" class="text-pink-800">Transfira Aqui</a></td></tr>
-          <tr><td class="p-2">Mesa de Jantar</td><td class="p-2 text-center">1.500,00</td><td class="p-2 text-center">15</td><td class="p-2 text-center">100,00</td></tr>
-          <tr><td class="p-2">Fogão</td><td class="p-2 text-center">800,00</td><td class="p-2 text-center">10</td><td class="p-2 text-center">80,00</td></tr>
-        </tbody>
-      </table>
+
+      <div class="space-y-4 mt-4">
+        <!-- Sofá -->
+        <div class="bg-pink-50 p-4 rounded-xl shadow">
+          <h3 class="text-lg font-semibold text-pink-600">Sofá</h3>
+          <p class="text-sm">Total: R$ 3.500,00</p>
+          <p class="text-sm">Cotas: 20 | Por Cota: R$ 175,00</p>
+          <p class="text-sm">Restantes: <strong>20</strong></p>
+          <a href="https://nubank.com.br/cobrar/chgdf/685c1264-1686-4ab1-a5f2-36b41de3a305" class="inline-block mt-2 px-4 py-1 bg-pink-200 text-pink-800 rounded text-sm">Contribuir via Pix</a>
+        </div>
+
+        <!-- Geladeira -->
+        <div class="bg-pink-50 p-4 rounded-xl shadow">
+          <h3 class="text-lg font-semibold text-pink-600">Geladeira</h3>
+          <p class="text-sm">Total: R$ 3.500,00</p>
+          <p class="text-sm">Cotas: 20 | Por Cota: R$ 175,00</p>
+          <p class="text-sm">Restantes: <strong>20</strong></p>
+          <a href="https://nubank.com.br/cobrar/chgdf/685c1264-1686-4ab1-a5f2-36b41de3a305" class="inline-block mt-2 px-4 py-1 bg-pink-200 text-pink-800 rounded text-sm">Contribuir via Pix</a>
+        </div>
+
+        <!-- Lavadora -->
+        <div class="bg-pink-50 p-4 rounded-xl shadow">
+          <h3 class="text-lg font-semibold text-pink-600">Lavadora Lave e Seca</h3>
+          <p class="text-sm">Total: R$ 3.500,00</p>
+          <p class="text-sm">Cotas: 20 | Por Cota: R$ 175,00</p>
+          <p class="text-sm">Restantes: <strong>20</strong></p>
+          <a href="https://nubank.com.br/cobrar/chgdf/685c1264-1686-4ab1-a5f2-36b41de3a305" class="inline-block mt-2 px-4 py-1 bg-pink-200 text-pink-800 rounded text-sm">Contribuir via Pix</a>
+        </div>
+
+        <!-- Mesa de Jantar -->
+        <div class="bg-pink-50 p-4 rounded-xl shadow">
+          <h3 class="text-lg font-semibold text-pink-600">Mesa de Jantar</h3>
+          <p class="text-sm">Total: R$ 1.500,00</p>
+          <p class="text-sm">Cotas: 15 | Por Cota: R$ 100,00</p>
+          <p class="text-sm">Restantes: <strong>15</strong></p>
+          <a href="https://nubank.com.br/cobrar/chgdf/685c14fe-e578-427e-a175-3d30324f8380" class="inline-block mt-2 px-4 py-1 bg-pink-200 text-pink-800 rounded text-sm">Contribuir via Pix</a>
+        </div>
+
+        <!-- Fogão -->
+        <div class="bg-pink-50 p-4 rounded-xl shadow">
+          <h3 class="text-lg font-semibold text-pink-600">Fogão</h3>
+          <p class="text-sm">Total: R$ 800,00</p>
+          <p class="text-sm">Cotas: 10 | Por Cota: R$ 80,00</p>
+          <p class="text-sm">Restantes: <strong>10</strong></p>
+          <a href="https://nubank.com.br/cobrar/chgdf/685c1513-4bbe-4af5-94ba-71cfd60c8471" class="inline-block mt-2 px-4 py-1 bg-pink-200 text-pink-800 rounded text-sm">Contribuir via Pix</a>
+        </div>
+      </div>
     </section>
 
     <footer class="text-sm text-gray-500 mt-6">
